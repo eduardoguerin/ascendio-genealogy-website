@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascendio Genealogy | Uncovering Your Family's Unique Story</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --sage-green: #78866B;
+            --forest-green: #228B22;
+            --off-white: #F5F5F5;
+            --shadow-black: #36454F;
+            --dark-coffee: #3C1414;
+        }
+        body {
+            font-family: 'Libre Baskerville', serif;
+            background-color: var(--off-white);
+            color: var(--shadow-black);
+        }
+        .bg-sage { background-color: var(--sage-green); }
+        .bg-forest { background-color: var(--forest-green); }
+        .bg-coffee { background-color: var(--dark-coffee); }
+        .text-sage { color: var(--sage-green); }
+        .text-forest { color: var(--forest-green); }
+        .text-coffee { color: var(--dark-coffee); }
+        .hero-section {
+            background-image: url('https://images.unsplash.com/photo-1618359512858-65007761a822?q=80&w=1740&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(120, 134, 107, 0.85);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-sage text-white py-6">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row md:justify-between md:items-center">
+            <div class="logo text-center md:text-left mb-4 md:mb-0">
+                <h1 class="text-3xl font-bold">Ascendio Genealogy</h1>
+                <p class="text-sm">Unveiling Your Family's Unique Journey</p>
+            </div>
+            <nav class="flex justify-center md:justify-end">
+                <ul class="flex space-x-6">
+                    <li><a href="#services" class="hover:underline">Our Services</a></li>
+                    <li><a href="#process" class="hover:underline">Research Process</a></li>
+                    <li><a href="#portfolio" class="hover:underline">Portfolio</a></li>
+                    <li><a href="#contact" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section py-20 text-white">
+            <div class="container mx-auto px-4 text-center hero-content">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                    Your Family's Story Awaits Discovery
+                </h2>
+                <p class="text-xl max-w-2xl mx-auto mb-8">
+                    More than genealogy. More than research. We uncover the rich, personal narratives that connect you to your ancestral roots.
+                </p>
+                <a href="#contact" class="bg-coffee text-white px-8 py-3 rounded-full hover:bg-opacity-90 transition inline-block">
+                    Start Your Family History Journey
+                </a>
+            </div>
+        </section>
+
+        <section id="services" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center text-forest mb-12">
+                    Our Specialized Research Services
+                </h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-off-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold text-sage mb-4">Dual Citizenship Research</h3>
+                        <p class="mb-4">Meticulously trace your ancestral lineage to support dual citizenship applications. We navigate complex genealogical requirements with precision and care.</p>
+                        <ul class="list-disc pl-5 space-y-2">
+                            <li>Document authentication and verification</li>
+                            <li>Multi-generation verification</li>
+                            <li>Country-specific eligibility research</li>
+                            <li>Application-ready documentation</li>
+                        </ul>
+                    </div>
+                    <div class="bg-off-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold text-sage mb-4">Family Tree Exploration</h3>
+                        <p class="mb-4">Dive deep into your family's history, uncovering stories spanning 5-10 generations. Our research goes beyond dates—we reveal the lives behind the names.</p>
+                        <ul class="list-disc pl-5 space-y-2">
+                            <li>Comprehensive ancestral mapping</li>
+                            <li>Historical context and narrative</li>
+                            <li>Immigration journey documentation</li>
+                            <li>Family stories and traditions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="process" class="py-16 bg-off-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center text-forest mb-12">
+                    Our Personalized Research Journey
+                </h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="bg-sage text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
+                        <h3 class="font-semibold mb-2 text-lg">Initial Consultation</h3>
+                        <p>We begin by listening to your family stories and gathering initial information through comprehensive interviews with family members.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-sage text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-xl font-bold">2</div>
+                        <h3 class="font-semibold mb-2 text-lg">Deep Research</h3>
+                        <p>Utilizing specialized platforms and local registry offices, we dig deep into historical records, immigration documents, and regional archives.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-sage text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-xl font-bold">3</div>
+                        <h3 class="font-semibold mb-2 text-lg">Story Compilation</h3>
+                        <p>We craft a beautiful, comprehensive package with your family's unique narrative, complete with visual portraits and historical context.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="value" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center text-forest mb-8">
+                    What Sets Ascendio Apart
+                </h2>
+                <div class="max-w-3xl mx-auto">
+                    <div class="bg-off-white p-6 rounded-lg shadow-md">
+                        <p class="text-xl mb-6">
+                            We're not just researchers—we're storytellers. Every family history is a unique narrative, and we dedicate ourselves to uncovering every meaningful detail.
+                        </p>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <h3 class="text-lg font-semibold text-sage mb-2">Beyond Basic Research</h3>
+                                <p>We include immigration records, city histories, ship manifests, burial sites, and historical photographs to provide a holistic view of your family's journey.</p>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-sage mb-2">Personal Touch</h3>
+                                <p>We provide regular updates throughout the research process, maintaining close communication and tailoring our approach to your specific family story.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="py-16 bg-off-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center text-forest mb-12">
+                    Our Research Portfolio
+                </h2>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="bg-white p-4 rounded-lg shadow-md">
+                        <div class="h-48 bg-gray-200 rounded mb-4"></div>
+                        <h3 class="text-lg font-semibold mb-2">Italian Heritage Exploration</h3>
+                        <p>Traced a family's lineage through five generations to their roots in Sicily, helping them obtain Italian citizenship.</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow-md">
+                        <div class="h-48 bg-gray-200 rounded mb-4"></div>
+                        <h3 class="text-lg font-semibold mb-2">Irish-American Journey</h3>
+                        <p>Documented the immigration journey of a family from County Kerry to Boston in the 1850s, revealing forgotten family stories.</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow-md">
+                        <div class="h-48 bg-gray-200 rounded mb-4"></div>
+                        <h3 class="text-lg font-semibold mb-2">German Ancestry Research</h3>
+                        <p>Uncovered seven generations of a family's history in Bavaria, connecting them with living relatives they never knew existed.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-16 bg-sage text-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">
+                    Client Stories
+                </h2>
+                <div class="max-w-3xl mx-auto">
+                    <div class="mb-8 text-center">
+                        <p class="text-xl italic mb-4">"Ascendio didn't just find names and dates—they uncovered the story of my family that I never knew. Their research helped me connect with my Italian heritage in ways I never thought possible."</p>
+                        <p class="font-semibold">— Maria C., New York</p>
+                    </div>
+                    <div class="mb-8 text-center">
+                        <p class="text-xl italic mb-4">"The personal attention and regular updates made all the difference. I felt like I was on the journey of discovery with them every step of the way."</p>
+                        <p class="font-semibold">— James T., Chicago</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-16 bg-coffee text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold mb-8">
+                    Begin Your Family's Story
+                </h2>
+                <form class="max-w-lg mx-auto">
+                    <div class="mb-4">
+                        <input type="text" placeholder="Your Name" class="w-full mb-4 p-3 text-shadow-black rounded">
+                    </div>
+                    <div class="mb-4">
+                        <input type="email" placeholder="Your Email" class="w-full mb-4 p-3 text-shadow-black rounded">
+                    </div>
+                    <div class="mb-4">
+                        <select class="w-full mb-4 p-3 text-shadow-black rounded">
+                            <option value="" disabled selected>Select Research Type</option>
+                            <option value="dual">Dual Citizenship Research</option>
+                            <option value="family">Family Tree Exploration</option>
+                            <option value="custom">Custom Research Project</option>
+                        </select>
+                    </div>
+                    <div class="mb-4">
+                        <textarea placeholder="Tell us about your research goals" class="w-full mb-4 p-3 text-shadow-black rounded" rows="4"></textarea>
+                    </div>
+                    <button class="bg-sage text-white px-8 py-3 rounded-full hover:bg-opacity-90 transition">
+                        Start Your Genealogy Journey
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-shadow-black text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Ascendio Genealogy</h3>
+                    <p>Preserving Stories, Connecting Generations.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <p>info@ascendiogenealogy.com</p>
+                    <p>(555) 123-4567</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+                    <div class="flex justify-center md:justify-start space-x-4">
+                        <a href="#" class="hover:text-gray-300">Facebook</a>
+                        <a href="#" class="hover:text-gray-300">Instagram</a>
+                        <a href="#" class="hover:text-gray-300">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-700 text-center">
+                <p>&copy; 2024 Ascendio Genealogy. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
