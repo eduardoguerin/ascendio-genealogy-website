@@ -32,7 +32,7 @@ The site includes sections for:
 
 ## Deployment
 
-This website is deployed using GitHub Pages. View the live site at: [yourusername.github.io/ascendio-genealogy-website](https://yourusername.github.io/ascendio-genealogy-website)
+This website is deployed using GitHub Pages. View the live site at: [eduardoguerin.github.io/ascendio-genealogy-website](https://eduardoguerin.github.io/ascendio-genealogy-website)
 
 ## Getting Started
 
@@ -40,7 +40,7 @@ To work with this repository locally:
 
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/ascendio-genealogy-website.git
+   git clone https://github.com/eduardoguerin/ascendio-genealogy-website.git
    ```
 2. Open `index.html` in your browser to view the site
 3. Make changes as needed
